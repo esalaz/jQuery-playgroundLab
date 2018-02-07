@@ -2,15 +2,15 @@
 
 problem_set.how_many_h1_tags_are_on_the_page.answer = $("h1").length;
 
-problem_set.how_many_p_tags_are_on_the_page.answer = "YOUR ANSWER HERE";
+problem_set.how_many_p_tags_are_on_the_page.answer = $("p").length;
 
-problem_set.grab_all_the_colorful_message_elements.answer = "YOUR ANSWER HERE";
+problem_set.grab_all_the_colorful_message_elements.answer = $(".alert");
 
-problem_set.grab_the_red_message_element.answer = "YOUR ANSWER HERE";
+problem_set.grab_the_red_message_element.answer = $(".alert-danger");
 
-problem_set.grab_the_blue_message_element.answer = "YOUR ANSWER HERE";
+problem_set.grab_the_blue_message_element.answer = $(".alert-info");
 
-problem_set.what_time_is_on_the_page.answer = "YOUR ANSWER HERE";
+problem_set.what_time_is_on_the_page.answer = $(".time");
 
 problem_set.what_does_the_question_field_say.answer = "YOUR ANSWER HERE";
 
